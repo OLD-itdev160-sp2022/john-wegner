@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity 2</title>
+</head>
+<body>
+    <img src="images/steak.jpg" alt="Steak Picture" width="200" height="200">
+    <br>
+    <a href="mailto:johnwegner@wi.rr.com"> Contact John</a>
+    <h1>My Favorite Restaurants</h1>
+    <table id="simple-table" border="1" cellspacing="0">
+        <tr>
+            <th>Name</th>
+            <th>URL</th>
+        </tr>
+        <tr>
+            <td>Cousin's Subs</td>
+            <td><a href="http://www.cousinssubs.com" target="_blank">Cousin's Subs Homepage</a></td>
+        </tr>
+        <tr>
+            <td>Georgie Porgie's</td>
+            <td><a href="https://www.georgieporgies.com" target="_blank">Georgie Porgie's Homepage</a></td>
+        </tr>
+    </table>
+    <br>
+    <table id="complex-table" border="1" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th scope="column">Type</th>
+                <th scope="column">Expensive</th>
+                <th scope="column">Accessible Parking</th>
+                <th scope="column">Good Food</th>
+                <th scope="column">Live Entertainment</th>
+                <th scope="column">URL</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td scope="row">Casablanca</td>
+                <td>Middle Eastern</td>
+                <td colspan="4">Yes</td>
+                <td><a href="https://casablancaonbrady.com" target="_blank">Casablanca's Homepage</a></td>
+            </tr>
+            <tr>
+                <td>Mader's</td>
+                <td>German</td>
+                <td rowspan="2" colspan="3">Yes</td>
+                <td rowspan="2">No</td>
+                <td><a href="https://madersrestaurant.com" target="_blank">Mader's Homepage</a></td>
+            </tr>
+            <tr> 
+                <td>Sandra's on the Park</td>
+                <td>American</td>
+                <td><a href="https://www.sandrasonthepark.com" target="_blank">Sandra on the Park's Homepage</a></td>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="7">&copy; John Wegner 2022</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
